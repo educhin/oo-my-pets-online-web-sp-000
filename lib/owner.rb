@@ -26,7 +26,7 @@ class Owner
 
   def
 
-  def say_species
+  def self.say_species
     "I am a human."
   end
 
