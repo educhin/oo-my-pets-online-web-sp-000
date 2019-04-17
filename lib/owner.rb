@@ -63,5 +63,6 @@ class Owner
   def list_pets
     @pets.vaules.flatten.each do |pet|
       puts pet.name
+    end
   end
 end
