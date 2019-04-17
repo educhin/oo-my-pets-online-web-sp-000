@@ -24,8 +24,10 @@ class Owner
     @@all.clear
   end
 
+  def
+
   def say_species
-    @species
+    puts "I am a #{@species}"
   end
 
   def buy_dog(name)
