@@ -61,7 +61,7 @@ class Owner
   end
 
   def list_pets
-    @pets.vaules.flatten.each do |pet|
+    @pets.values.flatten.each do |pet|
       puts pet.name
     end
   end
