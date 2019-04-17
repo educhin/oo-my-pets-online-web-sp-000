@@ -61,8 +61,6 @@ class Owner
   end
 
   def list_pets
-    @pets.values.flatten.each do |pet|
-      puts pet.name
-    end
+    "i have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)"
   end
 end
