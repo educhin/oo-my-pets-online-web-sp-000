@@ -24,10 +24,8 @@ class Owner
     @@all.clear
   end
 
-  def
-
-  def self.say_species
-    "I am a human."
+  def say_species
+    "I am a #{@species}."
   end
 
   def buy_dog(name)
