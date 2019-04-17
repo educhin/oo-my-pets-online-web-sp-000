@@ -27,7 +27,7 @@ class Owner
   def
 
   def say_species
-    "I am a #{self.species}."
+    "I am a human."
   end
 
   def buy_dog(name)
